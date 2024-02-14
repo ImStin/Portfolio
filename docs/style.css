@@ -1,0 +1,44 @@
+body {
+    background: #AAB4C1;
+    
+}
+
+.NavBar {
+    background: LightSteelBlue;
+    
+}
+.chameleon {
+    width: 600px;
+    
+}
+
+.gecko {
+    width: 600px;
+    
+}
+.toad {
+    width: 600px;
+    
+}
+
+.newt {
+    width: 600px;
+    
+}
+
+p{
+    font-family: Serif;
+    font-size: 18px;
+    
+}
+
+h1{
+    font-size: 40px;
+    font-family: verdana;
+}
+
+h2,h5,h6{
+    font-family: verdana;
+    font-size: 22px;
+    
+}

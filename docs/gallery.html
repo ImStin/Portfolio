@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
+     * On Windows, go to the browser and type control + o and browse to find this file to open it.
+     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
+     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
+    -->
+    <head>
+        <!-- What's in the <head> element is a "meta" area not for display. 
+            It holds important information about the website's contents.
+            The text inside the <title> element does show in the top tab of a web browser. 
+             The <head> is where we will include info about styling the site, too. -->
+        <title>Photos of Reptiles and Amphibians</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Here is a place where we can add a little styling code called CSS to this page. 
+            I used it to apply a background color to the body element.
+        -->
+        
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        
+    </head>
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
+        <h1 style="font-size: 40px;">Gallery</h1>
+        
+        <nav class="NavBar">
+            <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a>
+            
+        </nav>
+        
+        <h5>Here are some photos of what <a href="https://en.wikipedia.org/wiki/Reptile">reptiles</a> and <a href="https://en.wikipedia.org/wiki/Amphibian">amphibians</a> look like.</h5>
+        <figure>
+            <img src="images/newt-mosaic4.png" class="newt"/>
+            <figcaption style="color: #AC9040; font-size: 20px;">A photoshopped photo of an amphibian which is called a newt.</figcaption>
+        </figure> 
+        
+        <figure>
+            <img src="images/toad.jpg" class="toad"/>
+            <figcaption style="color: #423622; font-size: 20px;"> A high resolution photo of another amphibian which is the toad who is on top of a dirt mound.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/cham.jpg" class="chameleon"/>
+            <figcaption style="color: #BF3030; font-size: 20px;"> A high resolution photo of a reptile which is the chameleon who is on top of a flower.</figcaption>
+        </figure>
+        
+        <figure>
+            <img src="images/gecko.jpg" class="gecko"/>
+            <figcaption style="color: #259238; font-size: 20px;"> A high resolution photo of a gecko, which is another reptile, on top of a leaf.</figcaption>
+        </figure>
+    </body>
+</html>
