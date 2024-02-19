@@ -3,10 +3,12 @@ body {
     margin: 10px;
 }
 
+/* Combing all of my image element names makes it easier to work with them together as I want the images to be the same sizes. */
 .chameleon, .gecko, .toad, .newt {
     width: 30vw;
 }
 
+/* This style allows me to flex the images and have them be side by side. */
 .Gallery {
     display: flex;
     flex-wrap: wrap;
