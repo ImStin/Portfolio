@@ -1,29 +1,25 @@
 body {
-    background: #AAB4C1;
-    
+    background: #F8F8F8;
+    margin: 10px;
 }
 
-.NavBar {
-    background: LightSteelBlue;
-    
-}
-.chameleon {
-    width: 600px;
-    
+.chameleon, .gecko, .toad, .newt {
+    width: 30vw;
 }
 
-.gecko {
-    width: 600px;
-    
-}
-.toad {
-    width: 600px;
-    
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vw;
 }
 
-.newt {
-    width: 600px;
-    
+.photoGallery {
+    margin: 10px;
+    text-align: center;
+}
+
+figcaption{
+    margin-top: 15px;
 }
 
 p{
@@ -41,4 +37,27 @@ h2,h5,h6{
     font-family: verdana;
     font-size: 22px;
     
+}
+
+.NavBar {
+    background-color: #333030; /* Random Grey/Black Hexcolor */
+}
+
+/* This makes it so the Nav Bar allows the words to go across the screen completely in sections.     */
+.NavBar li {
+    display: inline;
+}
+
+/* This controls the text for the titles of the Nav Bar */
+.NavBar a {
+    display: inline-block;
+    padding: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* This allows it so the background section of a nav section switches colors to indicate the user is hovering over the section */
+.NavBar a:hover {
+    background-color: #636363; /* Random Grey Hexcolor */
+    color: black;
 }
