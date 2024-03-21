@@ -6,13 +6,16 @@ body {
 /* Combing all of my image element names makes it easier to work with them together as I want the images to be the same sizes. */
 .chameleon, .gecko, .toad, .newt {
     width: 30vw;
+    max-width: 100%;
+    margin-right: 10px;
 }
 
 /* This style allows me to flex the images and have them be side by side. */
 .Gallery {
     display: flex;
     flex-wrap: wrap;
-    padding: 5vw;
+    padding: 6vw;
+    
 }
 
 .photoGallery {
@@ -21,18 +24,24 @@ body {
 }
 
 figcaption{
-    margin-top: 15px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 p{
     font-family: Serif;
-    font-size: 18px;
+    font-size: 20px;
     
 }
 
 h1{
     font-size: 40px;
     font-family: verdana;
+}
+
+.ExInd, .DigList li{
+    font-size: 20px;
+    font-family: Serif;
 }
 
 h2,h5,h6{
@@ -62,4 +71,16 @@ h2,h5,h6{
 .NavBar a:hover {
     background-color: #636363; /* Random Grey Hexcolor */
     color: black;
+}
+
+.CorpCompare {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.SoUgram, .InaugGram, .InaugKWIC, .StateKWIC {
+    width: 30vw;
+    height: 20vw;
+    margin-right: 10px;
+    max-width: 100%;
 }
